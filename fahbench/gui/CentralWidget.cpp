@@ -26,7 +26,7 @@ CentralWidget::CentralWidget() : QWidget() {
         msg += e.what();
         QMessageBox::warning(this, "Device error", msg);
     }
-    device_table_view = new QTableView;
+    device_table_view = new QTableView; 
 
     wu_table_model = new WorkUnitTableModel;
     wu_table_view = new QTableView;
